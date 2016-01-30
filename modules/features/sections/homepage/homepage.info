@@ -1,0 +1,7 @@
+name = Section: Homepage
+package = DRPR Sections
+core = 7.x
+
+dependencies[] = page
+dependencies[] = kw_manifests
+dependencies[] = kw_itemnames_entity

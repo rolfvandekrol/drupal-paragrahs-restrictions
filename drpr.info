@@ -2,12 +2,26 @@ name = Drupal Paragraphs Restrictions
 description = Install site for Drupal Paragraphs Restrictions
 core = 7.x
 
+; Core dependencies
 dependencies[] = block
 dependencies[] = dblog
+dependencies[] = menu
+dependencies[] = locale
 
+; Kraftwagen dependencies
 dependencies[] = kw_manifests
 dependencies[] = features
 
+; Hoppinger Helpers
+dependencies[] = hoppinger_language
+dependencies[] = hoppinger_permissions
+dependencies[] = hoppinger_theme
+
+; Sections
+dependencies[] = homepage
+dependencies[] = aboutus
+
+; Development dependencies
 env_dependencies[development][] = field_ui
 env_dependencies[development][] = strongarm
 

@@ -1,0 +1,30 @@
+<?php
+
+function homepage_kw_manifests_info() {
+  $manifests = array();
+
+  $manifests['create_page'] = array(
+    'callback' => 'homepage_create_page',
+  );
+
+  return $manifests;
+}
+
+function homepage_create_page() {
+  $node = kw_itemnames_ensure(
+    'node', 
+    'homepage_page',
+    array(
+      'uid' => 1,
+    ),
+    array(
+      'type' => 'page', 
+      'language' => LANGUAGE_NONE,
+      'title' => 'Homepage', 
+      'path' => array(
+        'alias' => 'home',
+        'pathauto' => FALSE
+      ),
+    )
+  );
+}
