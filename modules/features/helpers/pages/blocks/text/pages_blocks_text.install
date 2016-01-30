@@ -1,0 +1,17 @@
+<?php
+
+function pages_blocks_text_kw_manifests_info() {
+  $manifests = array();
+
+  $manifests['paragraph'] = array(
+    'callback' => 'pages_blocks_text_manifest_paragraph',
+  );
+
+  return $manifests;
+}
+
+function pages_blocks_text_manifest_paragraph() {
+  hoppinger_paragraphs_ensure_bundle('pages_blocks_text', 'Text');
+
+  
+}

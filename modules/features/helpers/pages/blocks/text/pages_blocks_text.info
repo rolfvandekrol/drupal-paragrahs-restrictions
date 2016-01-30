@@ -1,0 +1,6 @@
+name = Pages Blocks: Text
+package = "DRPR: Helpers"
+core = 7.x
+
+dependencies[] = kw_manifests
+dependencies[] = hoppinger_paragraphs

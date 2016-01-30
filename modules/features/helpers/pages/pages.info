@@ -1,0 +1,6 @@
+name = Pages
+core = 7.x
+
+package = "DRPR: Helpers"
+
+dependencies[] = pages_blocks_text
