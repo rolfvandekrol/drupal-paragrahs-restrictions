@@ -1,0 +1,9 @@
+name = Drupal Paragraphs Restrictions
+description = Default theme for Drupal Paragraphs Restrictions
+
+engine = phptemplate
+
+core = 7.x
+php = 5.2
+
+stylesheets[all][] = layout.css
