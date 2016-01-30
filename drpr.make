@@ -38,7 +38,7 @@ projects[breakpoints][subdir]                               = "contrib"
 projects[context][version]                                  = "3.6"
 projects[context][subdir]                                   = "contrib"
 
-projects[ckeditor_link][version]														= "2.4"
+projects[ckeditor_link][version]														= "2.3"
 projects[ckeditor_link][subdir]															= "contrib"
 projects[ckeditor_link][patch][ckeditor-link-url][url]      = "http://patches.hoppinger.com/drupal/ckeditor_link/ckeditor-clean-url-fix.7.x-2.3-v1.patch"
 projects[ckeditor_link][patch][paragraphs][url]             = "http://patches.hoppinger.com/drupal/ckeditor_link/paragrahs.7.x-2.3-v1.patch"
