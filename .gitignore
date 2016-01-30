@@ -6,6 +6,12 @@ modules/contrib/*
 modules/kraftwagen/*
 !modules/kraftwagen/README.md
 
+modules/hoppinger/*
+!modules/hoppinger/README.md
+
+libraries/*
+!libraries/README.md
+
 # OS specific shit
 .DS_Store
 Thumbs.db
